@@ -1,0 +1,16 @@
+GET http://localhost:3000/places?text=rua conde de tocantins, manaus, 443
+
+
+###
+GET http://localhost:3000/places?text=Av. Prof. Nilton Lins, 3936 - Parques das Laranjeiras
+
+
+###
+
+@originId = ChIJ96xSozkabJIRyAqwfu0tgmI
+
+@destionationId = ChIJNQXz-WgabJIR_a7t84A7zXc
+
+###
+
+GET http://localhost:3000/directions?originId={{ originId }}&destinationId={{ destionationId }}
